@@ -1,0 +1,22 @@
+{
+    "name": "visionet/module-company",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Visionet Inc",
+            "email": "imran.asgharali@visionet.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Visionet\\Company\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
